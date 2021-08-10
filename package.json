@@ -1,0 +1,21 @@
+{
+  "name": "roninwz-loader",
+  "version": "0.0.4",
+  "description": "自定义源码上加上注释的loader",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "webpack --progress --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "firstlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "author": "roninwz",
+  "license": "ISC",
+  "devDependencies": {
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^3.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "gitHead": "cca6256fa1d38bef3a62788d229921b745b926d3"
+}
